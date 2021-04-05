@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40DF15A261B7A9700C301ED /* DribbleAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DF159261B7A9700C301ED /* DribbleAnimatedView.swift */; };
+		C40DF15B261B7A9700C301ED /* DribbleAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DF159261B7A9700C301ED /* DribbleAnimatedView.swift */; };
 		C456E7D426124A3D006F0147 /* AnimatedIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456E7C126124A3B006F0147 /* AnimatedIndicatorApp.swift */; };
 		C456E7D526124A3D006F0147 /* AnimatedIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456E7C126124A3B006F0147 /* AnimatedIndicatorApp.swift */; };
 		C456E7D626124A3D006F0147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456E7C226124A3B006F0147 /* ContentView.swift */; };
 		C456E7D726124A3D006F0147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456E7C226124A3B006F0147 /* ContentView.swift */; };
 		C456E7D826124A3D006F0147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C456E7C326124A3D006F0147 /* Assets.xcassets */; };
 		C456E7D926124A3D006F0147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C456E7C326124A3D006F0147 /* Assets.xcassets */; };
+		C456E7EC26124B46006F0147 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456E7EB26124B46006F0147 /* HomeView.swift */; };
+		C456E7ED26124B46006F0147 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456E7EB26124B46006F0147 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C40DF159261B7A9700C301ED /* DribbleAnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleAnimatedView.swift; sourceTree = "<group>"; };
 		C456E7C126124A3B006F0147 /* AnimatedIndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIndicatorApp.swift; sourceTree = "<group>"; };
 		C456E7C226124A3B006F0147 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C456E7C326124A3D006F0147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		C456E7D026124A3D006F0147 /* AnimatedIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C456E7D226124A3D006F0147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C456E7D326124A3D006F0147 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C456E7EB26124B46006F0147 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 				C456E7C126124A3B006F0147 /* AnimatedIndicatorApp.swift */,
 				C456E7C226124A3B006F0147 /* ContentView.swift */,
 				C456E7C326124A3D006F0147 /* Assets.xcassets */,
+				C456E7EB26124B46006F0147 /* HomeView.swift */,
+				C40DF159261B7A9700C301ED /* DribbleAnimatedView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,7 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C456E7EC26124B46006F0147 /* HomeView.swift in Sources */,
 				C456E7D626124A3D006F0147 /* ContentView.swift in Sources */,
+				C40DF15A261B7A9700C301ED /* DribbleAnimatedView.swift in Sources */,
 				C456E7D426124A3D006F0147 /* AnimatedIndicatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C456E7ED26124B46006F0147 /* HomeView.swift in Sources */,
 				C456E7D726124A3D006F0147 /* ContentView.swift in Sources */,
+				C40DF15B261B7A9700C301ED /* DribbleAnimatedView.swift in Sources */,
 				C456E7D526124A3D006F0147 /* AnimatedIndicatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
